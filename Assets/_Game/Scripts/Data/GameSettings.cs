@@ -81,9 +81,7 @@ namespace CreativeSpore
         }
 
         private static GameSettings s_default = null;
-#if UNITY_EDITOR
-        [InitializeOnLoadMethod]
-#endif
+
         private static void InitializeDefaultSettings()
         {
             // Try to find a suitable asset
