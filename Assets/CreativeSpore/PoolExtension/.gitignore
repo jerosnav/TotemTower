@@ -1,0 +1,13 @@
+PoolManager.sln
+PoolManager.csproj
+PoolManager.Editor.csproj
+.vs/PoolManager/v14/.suo
+Library/
+ProjectSettings/
+Temp/
+test_Data/
+test.exe
+player_win_x86_s.pdb
+player_win_x86.pdb
+_SourceDocs/
+_Metadata/.~lock.Pool Extension Manual.odt#

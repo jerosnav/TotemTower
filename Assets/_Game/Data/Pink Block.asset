@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4658f591590c9242959e247cafe4bb1, type: 3}
+  m_Name: Pink Block
+  m_EditorClassIdentifier: 
+  m_material: {fileID: 2100000, guid: 1c2a0585cf8518e42a6527d50f4281fd, type: 2}
+  m_texture: {fileID: 2800000, guid: ef88089a798b31949897dca3a3ae9985, type: 3}
+  m_background: {fileID: 2800000, guid: 2e8e9222ccabd0f4283a85645042e510, type: 3}
+  m_pattern: {fileID: 2800000, guid: 360ba5b32002f4c47a3c50f0984ff299, type: 3}
+  m_portrait: {fileID: 2800000, guid: 89a260977345b0f49bc650ea76728e54, type: 3}
+  m_patternTintColor: {r: 1, g: 0.39200002, b: 0.9644965, a: 1}

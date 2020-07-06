@@ -1,0 +1,7 @@
+Library/
+Temp/
+*.csproj
+2. .vs/
+2. obj/
+obj/
+.vs/

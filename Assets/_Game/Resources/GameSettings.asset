@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a1ff5e328b4384691461c146306a10, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  m_gameplay:
+    cameraRotationSmoothFactor: 0.2
+    projectilePrefab: {fileID: 114957921385314292, guid: 8b0bc8cb8c101904b86e2edbcd9ca199,
+      type: 3}
+    shotTimeToHit: 0.4
+    shotBounceTime: 0.5
+    explosionDelay: 0.1
+    cameraShakeDuration: 0.4
+    cameraShakeStrength: 0.5
+    cameraShakeVibrato: 15
+    towerActiveChunkSize: 8
+    blockPrefabs:
+    - {fileID: 2952690563672842987, guid: d603a4255cfd35744b3463a001036899, type: 3}
+    - {fileID: 2952690563672842987, guid: 299ba7cd96800084a895281c4e620277, type: 3}
+    - {fileID: 2952690563672842987, guid: ac066bfda8057a34ea05f8ab0ceb6c76, type: 3}
+    - {fileID: 2952690563672842987, guid: d25c90007b51b5c4b9fae566ca075b16, type: 3}
+    - {fileID: 2952690563672842987, guid: c3da6e4e279f5b648b90858cec1556fb, type: 3}
+    progressNeededToComplete: 0.9
+  m_visual:
+    BlockDisabledMaterial: {fileID: 2100000, guid: 83bc979a2239cc948a5c507aded81ae9,
+      type: 2}
+    BlockMaterial: {fileID: 2100000, guid: 1c2a0585cf8518e42a6527d50f4281fd, type: 2}
+  m_sounds:
+    Whoosh: {fileID: 8300000, guid: 8f697604595ad8b49840bf5af886e42c, type: 3}
+    BlockExplosion: {fileID: 8300000, guid: 508dcd96766a92d4eb9f446e2cb71a7d, type: 3}
+    BlockHit: {fileID: 8300000, guid: 1eee367a84d3c474db4514cd2a03bc6d, type: 3}
+    WaterSplash: {fileID: 8300000, guid: 83aa77f7852305349a4ddf9eba2f4b76, type: 3}
+    BlockFaceRotation: {fileID: 8300000, guid: 790b855f86b23c04a91fa29e41fb0aff, type: 3}
